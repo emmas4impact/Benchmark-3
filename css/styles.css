@@ -37,6 +37,19 @@ body {
 .card-body{
   background-color:#ececec;
 }
+body .carousel-indicators{
+  bottom: 0;
+}
+.btn{
+  color: white !important;
+  background-color: rebeccapurple;
+  
+}
+.news{
+  display: flex;
+  padding: 0 8px 12px;
+  height:185px;
+}
 
 
   .footer {
