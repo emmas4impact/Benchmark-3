@@ -102,6 +102,7 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
+              
             >
               Support
             </a>
@@ -121,6 +122,7 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
+              
             >
               SIGN IN
             </a>
@@ -170,29 +172,46 @@
       <div class="item"><img src="./carousel/carousel6.jpg" /></div>
     </div>
                        
-    <div class="container-fluid movies-tiles pt-4">
+    <div class="container movies-tiles pt-4">
         
-        <div class="row tile-row pb-4">
-          <div class="strive-card col-3">
-            <div class="position-relative" style="overflow: hidden;">
-              <img src="./tile/tile (1).jpg" alt="" />
-              
-              <div class="play-icon gradient">
-                <i class="fa fa-play" aria-hidden="true"></i>
+          <div id="showhide" class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+            <div class="col mt-4 mb-4">
+                <div class="card">
+                  <img src="./tile/wartile.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">WARTILE</h5>
+                   
+                  </div>
+                  
+                </div>
               </div>
-            </div>
-          
-          </div>
-          <div class="col-3">
-            <img src="./tile/tile (2).jpg" alt="" />
-          </div>
-          <div class="col-3">
-            <img src="./tile/tile (3).jpg" alt="" />
-            <a href="dog.png" download="new-filename"><i class="fab fa-windows"></i>/i></a>
-          </div>
-          <div class="col-3">
-            <img src="./tile/tile (4).jpg" alt="" />
-          </div>
+              <div class="col mt-4 mb-4">
+                <div class="card">
+                  <img src="./tile/Ion-Fury.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">ION FURY</h5>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col mt-4 mb-4">
+                <div class="card">
+                  <img src="./tile/gric.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">ION FURY</h5>                    
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col mt-4 mb-4">
+                <div class="card">
+                  <img src="./tile/close.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">CLOSE COMBAT</h5>                  
+                     
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
         <hr>
@@ -204,10 +223,8 @@
                 </div>
                 <div class="col-2">
                     <p><a href="#" style="justify-content:right;">THE NEW GOG GALAXY 2.0</a></p>
-                </div>
-            
-            </div>
-        
+                </div>            
+            </div>        
         </div>
         <hr>
         <div class="container">
@@ -258,7 +275,7 @@
                                     <img class="card-img-top" src="./tile/tile (22).jpg"
                                     alt="Card image cap">
                                     <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
+                                    
                                     <p class="card-text"></p>
                                     <a class="btn btn-primary">Button</a>
                                     </div>
@@ -270,7 +287,7 @@
                                     <img class="card-img-top" src="./tile/tile (23).jpg"
                                     alt="Card image cap">
                                     <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
+                                    
                                     <p class="card-text"></p>
                                     <a class="btn btn-primary">Button</a>
                                     </div>
@@ -284,7 +301,7 @@
                                     <img class="card-img-top" src="./tile/tile (25).jpg"
                                     alt="Card image cap">
                                     <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
+                                    
                                     <p class="card-text"></p>
                                     <a class="btn btn-primary">Button</a>
                                     </div>
@@ -296,7 +313,7 @@
                                     <img class="card-img-top" src="./tile/tile (24).jpg"
                                     alt="Card image cap">
                                     <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
+                                    
                                     <p class="card-text"></p>
                                     <a class="btn btn-primary">Button</a>
                                     </div>
@@ -318,7 +335,7 @@
                                 <img class="card-img-top" src="./tile/tile (26).jpg"
                                 alt="Card image cap">
                                 <div class="card-body">
-                                <h4 class="card-title">Card title</h4>
+                                
                                 <p class="card-text"></p>
                                 <a class="btn btn-primary">Button</a>
                                 </div>
@@ -332,7 +349,7 @@
                                         <img class="card-img-top" src="./tile/tile (26).jpg"
                                         alt="Card image cap">
                                         <div class="card-body">
-                                        <h4 class="card-title">Card title</h4>
+                                       
                                         <p class="card-text"></p>
                                         <a class="btn btn-primary">Button</a>
                                         </div>
@@ -344,7 +361,7 @@
                                         <img class="card-img-top" src="./tile/tile (26).jpg"
                                         alt="Card image cap">
                                         <div class="card-body">
-                                        <h4 class="card-title">Card title</h4>
+                                        
                                         <p class="card-text"></p>
                                         <a class="btn btn-primary">Button</a>
                                         </div>
@@ -469,6 +486,121 @@
         <div class="container">
           <i class="fas fa-bullhorn"> Releases you might have missed</i>
           <hr>
+          <!--Carousel Wrapper-->
+          <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+              <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+              <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                  class="fas fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+              <li data-target="#multi-item-example" data-slide-to="1"></li>
+              
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+              <!--First slide-->
+              <div class="carousel-item active">
+
+                <div class="col-md-4" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="./tile/2-25.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="./tile/stoneshard.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="./tile/deus1.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                     
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+             
+
+              </div>
+              <!--/.First slide-->
+
+              <!--Second slide-->
+              <div class="carousel-item">
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+                
+
+              </div>
+              <!--/.Second slide-->
+            </div>
+            <!--/.Slides-->
+
+          </div>
+          <!--/.Carousel Wrapper-->
          
         
         </div>

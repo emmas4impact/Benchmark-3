@@ -1,6 +1,10 @@
 
 .navbar{
+    z-index: 4;
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .fas{
     color:whitesmoke;
@@ -30,6 +34,9 @@ body {
     background-color: #d8d8d8;
     font-family: "Open Sans", sans-serif;
   }
+.card-body{
+  background-color:#ececec;
+}
 
   .footer {
     max-width: 70%;
